@@ -1,7 +1,7 @@
 # terahje-portfolio-mock2
 React portfolio of previous work using everything we've learned thus far
 
-[Link to deployed App](https://terahje.github.io/terahje-portfolio-mock2/)
+[Link to deployed Portfolio](https://terahje.github.io/terahje-portfolio-mock2/)
 
 
 ![licenses](https://img.shields.io/badge/License-MIT_License-blue.svg)
