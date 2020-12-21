@@ -1,13 +1,31 @@
-import React from 'react';
-import coverImage from "../../assets/cover/cover-image.jpg";
+import React from "react";
 
 function About() {
-    return (
-        <section className="my-5">
-        <h1 id="about">Who am I?</h1>
-        <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
-        </section>
-      );
+	return (
+		<section>
+			<div className="center" id="about">
+				<h1 className="page-header">About Me</h1>
+			</div>
+			<div className="center">
+				<img
+					src={require("../../assets/images/profilePic.jpg")}
+					alt="picture of Terahje Gratkowski"
+					className="photo"
+				/>
+			</div>
+			<div>
+				<p>
+			{/* put here */}
+				</p>
+				<p>
+		{/* put here */}
+				</p>
+				<p>
+			{/* put here */}
+				</p>
+			</div>
+		</section>
+	);
 }
 
 export default About;

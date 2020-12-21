@@ -1,55 +1,26 @@
-import React from 'react';
+import React from "react";
 
-function Nav() {
-    const categories = [
-        {
-          name: "commercial",
-          description:
-            "Photos of grocery stores, food trucks, and other commercial projects",
-        },
-        { name: "portraits", description: "Portraits of people in my life" },
-        { name: "food", description: "Delicious delicacies" },
-        {
-          name: "landscape",
-          description: "Fields, farmhouses, waterfalls, and the beauty of nature",
-        },
-      ];
+function Nav(props) {
+	const { currentTab, setCurrentTab } = props;
 
-    function categorySelected(name) {
-    console.log(`${name} clicked`)
-    }
-
-  return (
-    <header data-testid="header" className="flex-row px-1">
-    <h2>
-        <a href="/">
-        <span role="img" aria-label="camera"> 📸</span> Oh Snap!
-        </a>
-    </h2>
-    <nav>
-        <ul className="flex-row">
-        <li className="mx-2">
-            <a href="#about">
-            About me
-            </a>
-        </li>
-        <li>
-            <span>Contact</span>
-        </li>
-        {categories.map((category) => (
-            <li
-                className="mx-1"
-                key={category.name}
-            >
-                <span onClick={() => categorySelected(category.name)} >
-                {category.name}
-                </span>
-            </li>
-        ))}
-        </ul>
-    </nav>
-    </header>
-  );
+	return (
+		<nav>
+			<ul className="flex-row mobile-view">
+				<li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentTab("about")}>About Me</span>
+				</li>
+				<li className={currentTab === "portfolio" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentTab("portfolio")}>Portfolio</span>
+				</li>
+				<li className={currentTab === "contact" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentTab("contact")}>Contact</span>
+				</li>
+				<li className={currentTab === "resume" ? "mx-2 navActive" : "mx-2"}>
+					<span onClick={() => setCurrentTab("resume")}>Resume</span>
+				</li>
+			</ul>
+		</nav>
+	);
 }
 
 export default Nav;
