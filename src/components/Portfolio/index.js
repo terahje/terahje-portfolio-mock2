@@ -6,7 +6,7 @@ function Portfolio() {
 		{
 			name: "Cutting Edge",
 			description:
-				"An appointment scheduler for a hair salon using node js, SQL and material design.",
+				"An appointment scheduler for a hair salon using node js, SQL and material design. Second Group Project.",
 			image: "cutting-edge-image.jpg",
 			technologies: [
 				"JavaScript",
@@ -23,7 +23,7 @@ function Portfolio() {
         {
 			name: "Wizier",
 			description:
-				"A flash card game that can help with multiple subjects.",
+				"A flash card game that can help with multiple subjects. First Group Project",
 			image: "wizier-image.jpg",
 			technologies: [
 				"HTML",
