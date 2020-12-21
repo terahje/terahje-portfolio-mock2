@@ -8,7 +8,7 @@ function About() {
 			</div>
 			<div className="center">
 				<img
-					src={require("../../assets/images/pro-pic.jpg")}
+					src={require("../../assets/images/profile-pic.jpg").default}
 					alt="Terahje Gratkowski"
 					className="photo"
 				/>
@@ -27,7 +27,9 @@ function About() {
 			with software development for robots.
 				</p>
 				<p>
-			{/* put here */}
+			I love that coding gives me the chance to come across obstacles and over come them to reach your goal.  I love that it 
+			allows you to work with a team to achieve a common goal.  I'm excited to see where this path leads too and feel the future
+			is as bright as our Tucson Sun.
 				</p>
 			</div>
 		</section>
