@@ -24,7 +24,7 @@ function About() {
             the competition, I've also had a deep love for technology and its various uses.  When I found coding it was
             an immediate attraction, as I love the peeling back the layers of things, we use day to day but fail to understand
             how they work.  I decided to start down this path because I think the future is heavily reliant on people to write 
-			and maintin the AI and robotic network that could be the next industrial boom.
+			and maintain the AI and robotic network that could be the next industrial boom.
                 </p>
                 <p>
             I love that coding gives me the chance to come across obstacles and overcome them to reach your goal.  I love that it 
