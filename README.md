@@ -20,7 +20,7 @@ npm install<br>
 npm start
 
 ## Usage
-![](/screenshot.jpg)
+![](/src/assets/images/screenshot.jpg)
 
 ## License
 ### This license is covered under the following license(s):
