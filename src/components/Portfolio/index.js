@@ -4,6 +4,26 @@ import Project from "../Project";
 function Portfolio() {
 	const projects = [
 		{
+			name: "The Cutting Edge - Final Cut",
+			description:
+				"An App that a user can go through hairstyles provided, then contact a hairstylist to provide service.",
+			image: "cuttingEdgeFinalCut.gif",
+			technologies: [
+				"JavaScript",
+				"Node.js",
+				"React & React Bootstrap",
+				"MongoDb",
+				"Express",
+				"Nodemon",
+				"GraphQl",
+				"Concurrently",
+				"GraphQl",
+				"Heroku",
+			],
+			github: "https://github.com/terahje/the-cutting-edge-final-cut",
+			deployed: "https://the-cutting-edge-final-cut800.herokuapp.com",
+			},
+			{
 			name: "Cutting Edge",
 			description:
 				"An appointment scheduler for a hair salon using node js, SQL and material design. Second Group Project.",
@@ -78,22 +98,8 @@ function Portfolio() {
 			],
 			github: "https://github.com/terahje/week-6-challenge/",
 			deployed: "https://terahje.github.io/week-6-challenge/",
-        },
-        {
-			name: "Note Taker",
-			description:
-				"A Note Taker app that allows you to keep track of vitale notes in a easy to view manner. Easily add and delete those you've already completed.",
-			image: "note-taker-image.jpg",
-			technologies: [
-                "HTML",
-				"CSS",
-				"JavaScript",
-				"Node.js",
-				"Express",
-			],
-			github: "https://github.com/terahje/week-11-challenge",
-			deployed: "https://safe-refuge-35917.herokuapp.com/",
-		},
+        }
+
 	];
 
 	return (
